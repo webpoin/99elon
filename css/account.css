@@ -1,0 +1,172 @@
+form{overflow: hidden;}
+form cite{position: relative; float: left;clear: both; margin-bottom: 28px;height: 40px;line-height: 40px;}
+form input[type="text"],
+form input[type="password"]{position: relative;width: 295px;height: 18px;line-height: 18px; padding:10px 5px 10px 40px;border:none;border: 1px solid #c9c9c9;outline: none;border-radius: 2px; }
+form input[type="submit"]{position: relative; width: 296px;font-size: 14px;height: 40px;line-height: 40px;border-radius: 2px; color: #fff;background: #478bca;text-align: center;border: none; cursor: pointer; behavior:url(css/PIE.htc); }
+form input[type="text"]:focus,
+form input[type="password"]:focus{box-shadow:0px 0px 2px #5faee3;border-color:#5faee3;}
+
+form input[type="radio"]{position: absolute; width: 0;height: 0;overflow: hidden;margin: 0;padding: 0;border: none;}
+form input[type="radio"]+span{display: inline-block;height: 40px;margin-right: 20px;cursor: pointer; font-size: 14px;line-height: 40px; padding-left: 25px;background: url(../images/icon_form_radio.png) no-repeat -10px top;}
+form input[type="radio"].select+span{background: url(../images/icon_form_radio.png) no-repeat -10px -40px;}
+
+form input[type="checkbox"]{position: absolute; width: 0;height: 0;overflow: hidden;margin: 0;padding: 0;border: none;}
+form input[type="checkbox"]+span{display: inline-block;height: 40px;margin-right: 20px;cursor: pointer; font-size: 14px;line-height: 40px; padding-left: 25px;background: url(../images/icon_form_checkbox.png) no-repeat -10px top;}
+form input[type="checkbox"].select+span{background: url(../images/icon_form_checkbox.png) no-repeat -10px -40px;}
+
+
+form label{display: inline-block;position: relative;vertical-align: top;}
+form label>em{position: absolute;white-space:nowrap;left: 40px;top: 0;color: #9d9d9d;cursor: text; }
+form label>img{position: absolute;top: 0;left: 5px;top: 5px;}
+form cite>b{display:inline-block; vertical-align: top;background: #5faee3;width: 110px;text-align: center;color: #fff;font: normal 14px/40px '宋体';cursor: pointer;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;}
+
+/*提示*/
+form cite>i{display: none;position: absolute;left: 100%;top: 0;margin-left: 7px; height: 38px;padding:0 30px;white-space:nowrap;font-style: normal;behavior:url(css/PIE.htc);}
+form cite>i.form-note-success{display: block;background: url(../images/account_form_icon_03.png) no-repeat left center;}
+form cite>i.form-note-warn{display: block;border:1px solid #eabd2c;  background: url(../images/account_form_icon_01.png) no-repeat left center #fffdf2;box-shadow: 3px 3px 3px #ebeae2;}
+form cite>i.form-note-warn:before{content: '';position: absolute;left: -5px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #eabd2c;z-index: 1; }
+form cite>i.form-note-warn:after{content: '';position: absolute;left: -4px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #fffdf2;z-index: 1; }
+form cite>i.form-note-error{display: block;border:1px solid #fe0e0e;  background: url(../images/account_form_icon_02.png) no-repeat left center #ffdbdb;box-shadow: 3px 3px 3px #ebeae2;}
+form cite>i.form-note-error:before{content: '';position: absolute;left: -5px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #fe0e0e;z-index: 1; }
+form cite>i.form-note-error:after{content: '';position: absolute;left: -4px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #ffdbdb;z-index: 1; }
+
+
+/*下拉框*/
+select{position:relative; float: left; left:-999em;height:40px;width:343px; z-index:-999; zoom;overflow:hidden;opacity:0;filter:alpha(opacity=0);}
+.select{position:relative;display:inline-block;*display:inline;*zoom:1;  vertical-align: top; }
+.select span{display:block;position: relative;border:1px solid #c9c9c9;height: 38px;padding-left: 40px; background:url(../images/icon_form_select.png) no-repeat right center;border-radius: 2px; behavior:url(css/PIE.htc);}
+.select span.hot{ }
+
+.select_box{background:#fff; margin-right:20px;z-index:1;overflow:auto;}
+.select_box>div{border:1px solid #d2d2d2;overflow:hidden;line-height:36px;font-size:16px;}
+.select_box li{width:100%;padding-left:10px;border-bottom:1px dotted #d2d2d2;cursor:pointer;margin-bottom:-1px; }
+.select_box i{width:10px;height:20px;float:left;background:#000;}
+.select_radio i{display:none; }
+.select_box b{display:none; }
+
+
+
+
+/*主体*/
+.content{ padding-bottom: 50px;}
+/*层级导航*/
+.location{margin-top: 10px;margin-bottom: 10px;}
+
+
+/*进度头*/
+.real_tle{position: relative;font-size: 18px;line-height: 52px;height: 52px;white-space:nowrap;border-radius: 2px;overflow: hidden;behavior:url(css/PIE.htc);}
+.real_tle li{position: relative;display: inline-block; width: 324px;text-indent: 120px;background: #fff;margin: 0 28px 0 -13px;}
+.real_tle li:before {content: "";width: 0;height: 0;border-top: 26px solid #fff;border-bottom: 26px solid #fff;border-left: 13px solid transparent;position: absolute; left: -13px; top: 0;}
+.real_tle li:after{content: "";width: 0;height: 0;border-top: 26px solid transparent;border-bottom: 26px solid transparent;border-left: 13px solid #fff;position: absolute; right: -13px; top: 0;}
+.real_tle img{position: absolute;left:80px ;top: 10px;}
+.real_tle .active{color: #fff;background: url(../images/account_real_tle_hot.png) no-repeat 80px center #478bca;}
+.real_tle .active:after{border-left-color: #478bca;}
+.real_tle .active:before{border-color: #478bca #478bca #478bca transparent;}
+.real_tle .active img{display:none;}
+
+
+.simulate_tle li{width: 498px;text-indent: 210px;}
+.simulate_tle img{left: 170px;}
+.simulate_tle .active{background-position: 170px center;}
+
+.invest_tle{font:normal 18px/52px '宋体'; height: 52px;white-space:nowrap;border-radius: 2px;background: #c5c5c5;}
+.invest_tle li{position: relative;width: 332.66px;text-align: center;margin-right:1px;background: #fff;}
+.invest_tle li a{display: block;}
+.invest_tle li.active{background: #478bca;color: #fff;}
+.invest_tle li.active:before{content: "";position: absolute; left: 50%;top: 100%;margin-left: -10px; width: 0;height: 0;border-top: 10px solid #478bca;border-left: 10px solid transparent;border-right: 10px solid transparent;}
+.invest_tle li.active:after{content: "";position: absolute; left: 50%;top: 75px;margin-left: -10px; width: 0;height: 0;border-top: 10px solid #f0f6fa;border-left: 10px solid transparent;border-right: 10px solid transparent;}
+
+
+
+/*主体*/
+.real_cnt{margin-top: 23px;padding: 30px 60px 20px; background: #fff;overflow: hidden;color: #484848;}
+.real_note{clear: both;font-size: 14px;line-height: 40px;color: #484848;font-family: '微软雅黑';}
+.real_note strong{font-size: 18px;color: #f00;font-weight: normal;}
+.simulate_note{clear: both;font-size: 12px;line-height: 24px; color: #818181;width: 540px;}
+
+/*开账户成功*/
+.real-success{text-align: center;font-family: '宋体';line-height: 26px;color: #909090;}
+.real-success h2{position: relative;width: 530px; white-space: nowrap; height: 102px;padding-bottom: 10px; margin: 10px auto 20px;border-bottom: 1px solid #999; font:normal 30px/160px '宋体';}
+.real-success h2 em{color: #f00;}
+.real-success h3{font-size: 14px;font-weight: normal;color: #565656;}
+.real-success h3 em{color: #f00;}
+.real-success >a{display: inline-block;position: relative; width: 296px;height: 40px;margin: 30px 30px 10px;  line-height: 40px;font-size: 14px;color: #fff;background: #478bca;border-radius: 2px;}
+
+
+.simulate_success h3{font-size: 24px;line-height: 42px;margin-bottom: 10px;}
+.withdrawal_success h3 {position: relative; display: inline-block;padding-left: 150px; font-size: 24px;line-height: 42px;margin-bottom: 10px;text-align: left;}
+.withdrawal_success h3 span{position: absolute;width: 150px;text-align: right;left: 0;}
+.invest_success h3 {position: relative; display: inline-block;padding-left: 150px; font-size: 24px;line-height: 42px;margin-bottom: 10px;text-align: left;}
+.invest_success h3 span{position: absolute;width: 150px;text-align: right;left: 0;}
+
+
+
+
+
+/*开账户失败*/
+.real-false{text-align: center;line-height: 22px;color: #909090;}
+.real-false h2{position: relative;width: 530px; height: 102px;padding-bottom: 10px; margin: 10px auto 20px;border-bottom: 1px solid #999; font:normal 30px/160px '宋体';color: #ff0202;}
+/*.real-false h2 img{position: absolute;left: 50%;top: 0;margin-left: -180px;}*/
+.real-false h3{font-size: 14px;font-weight: normal;color: #565656;}
+.real-false h3 strong{color: #082c4f;font-weight: normal;}
+.real-false >a{display: inline-block;position: relative; width: 296px;height: 40px;margin: 5px 30px 10px;  line-height: 40px;font-size: 14px;color: #fff;background: #478bca;border-radius: 2px; behavior:url(css/PIE.htc);}
+
+
+
+/*资质*/
+.ability{background: #fff;padding: 10px 60px 30px; }
+.ability>div{background: #f2f2f2;border: 1px solid #e8e8e8;}
+.ability dl{overflow: hidden;margin:0 25px 30px; }
+.ability dt{font-size: 18px;color: #484848;line-height: 42px;border-bottom: 1px solid #d7d7d7;}
+.ability dd{float: left;width: 50%;}
+.ability dd span{font-size: 16px;line-height: 30px;color: #484848;}
+.ability dd em{color: #cf0b4d;font-style: normal;}
+.ability img{float: left;margin-top: 12px;margin-right: 15px;}
+.ability h3{font-size: 18px;font-weight: normal;color: #484848;margin-top: 13px;line-height: 30px;}
+.ability h4{font-size: 14px;font-weight: normal;color: #484848;margin-top: 10px;line-height: 24px;}
+.ability p{margin-right: 30px;color: #9c9c9c;}
+
+
+/*账户取款*/
+.withdrawal_warn{margin-bottom: 30px; border: 1px solid #ffd790;color: #757575; line-height: 55px;white-space: nowrap;text-indent: 55px;background: url(../images/withdrawal_warn.png) no-repeat 10px center #fef4e2;}
+.withdrawal_warn strong{font-size: 14px;color: #7c7c7c;margin-right: 10px;}
+.withdrawal_rate{display: inline-block;margin-left: 10px;}
+.withdrawal_rate strong{display: inline-block;height: 24px;overflow: hidden;line-height: 30px; font-size:24px;color:#fe0000;font-weight:normal;vertical-align: 0px;}
+.withdrawal_note{background: #fff;padding: 0px 60px 30px;}
+.withdrawal_note>div{background: #f2f2f2;border: 1px solid #e8e8e8;padding:18px 30px;line-height: 26px;color: #767676; }
+.withdrawal_note h2{font-size: 18px;color: #434343;font-weight: normal;line-height: 36px;}
+
+
+
+.invest_warn{margin-bottom: 30px;padding: 10px 0;line-height: 20px; border: 1px solid #ffd790;color: #757575;white-space: nowrap;background: #fef4e2;font-family: '宋体';}
+.invest_warn strong{display: inline-block;vertical-align: middle;padding-left: 50px;margin-right: 10px; line-height: 32px; background: url(../images/withdrawal_warn.png) no-repeat 10px center;}
+.invest_warn span{display: inline-block;vertical-align: middle;white-space:normal;width: 740px; }
+.invest_warn a{color: #fe0000;}
+.invest_online_tle{position: relative;height: 80px;margin-bottom: 30px; font-family: '宋体';}
+.invest_online_tle>img{position: absolute;left:140px;top: 15px;}
+.invest_online_tle li{display: inline-block;position: relative;width: 130px;margin-right: 70px;}
+.invest_online_tle strong{display: block;position: relative; height: 55px;font:normal 14px/40px '微软雅黑';white-space:nowrap;  border-radius: 2px;color: #fff;text-align: center;background: #c8c8c8;behavior:url(css/PIE.htc);}
+.invest_online_tle b{position: absolute;width: 40px;height: 40px;left: 50%;top: 35px; margin-left: -23px;background: #fff;border: 3px solid #c8c8c8;font:normal 30px/40px Arial;text-align: center;color: #c8c8c8;border-radius:23px;  behavior:url(css/PIE.htc);}
+.invest_online_tle li.active strong{background: #51b600;}
+.invest_online_tle li.active b{border-color:#51b600;color: #51b600; }
+.invest_form_msg{float: left;clear: both;margin-top: -10px; top: 100%;margin-bottom: 20px;font-size: 14px;}
+.invest_form_msg em{color: #fe0000;}
+.invest_note{ padding: 15px;margin-bottom: 20px;text-align: left;font: normal 12px/20px '宋体'; background: #f2f2f2;border: 1px solid #e8e8e8;color: #767676;}
+.invest_ways{height: 45px;margin-bottom: 20px;line-height: 45px;font-size: 14px; background: #f2f2f2;border: 1px solid #e8e8e8;white-space: nowrap; text-indent: 20px;}
+.invest_ways span{display: inline-block;width: 250px;}
+.invest_ways strong{font-weight: normal;}
+.invest_ways em{color: #fe0000;}
+
+.invest_form_bank{height: auto;margin-bottom: 10px;}
+.invest_form_bank label{margin-right: 15px;}
+.invest_form_bank label i{display: inline-block;position: relative;width: 155px;height: 40px;overflow: hidden;margin: 0; }
+.invest_form_bank label img{position: absolute;top: 3px;}
+
+.invest_msg{margin: 20px 0 50px;color: #767676;font: normal 14px/24px '宋体'; }
+
+
+
+
+
+
+

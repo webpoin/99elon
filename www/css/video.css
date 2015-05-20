@@ -1,0 +1,42 @@
+.video_hot h2 { font-size:24px; font-weight:normal; border-left:3px solid #177cb0; text-indent:10px; margin-bottom:25px; text-align:left; position:relative; }
+.video_left { width:680px; float:left;  }
+.video_hot ul li { float:left; width:50%; font-size:14px;}
+.video_hot_border { border-bottom:1px solid #808080; padding-top:15px;}
+.video_hot ul li a:hover { color:#177cb0;}
+.video_hot h2 .more {position: absolute;font-size: 12px;font-weight: normal;right: 0;top: 0;}
+.video_big { float:left; width:319px;  overflow:hidden;}
+.video_sm {  width:150px; overflow:hidden; padding-left:18px; float:left;}
+.video_li {  width:184px; overflow:hidden;  float:left;padding-bottom:20px;}
+.video_mr {padding-right:20px;}
+.video_left p { line-height:30px;}
+
+.video_r2 { width:320px; height:auto; background:none; float:right;}
+.video_r2 h2 { font-size:24px; font-weight:normal; border-left:3px solid #177cb0; text-indent:10px; margin-bottom: 25px;}
+.video_r2 h2 .more { position:absolute; font-size:12px; font-weight:normal; right:0; top:0;}
+.video_r2 img {margin-bottom:10px;}
+.video_sbox { height:70px; background:#FFF; margin-bottom:6px; }
+.video_sbox p { margin:0; padding:0; line-height:20px;}
+.video_sbox span { color:#b9b9b9;}
+.video_ico { width:56px; height:56px; float:left; padding:8px 10px 0 10px;}
+.video_look { width:100%; float:left; padding-top:40px;}
+.video_look h2 {font-size:24px; font-weight:normal; border-left:3px solid #177cb0; text-indent:10px; margin-bottom: 25px;}
+
+.video_xxbox { width:650px; padding:15px; background:#FFF;}
+.video_xxbox h3 { font-size:18px; font-weight:normal; padding: 20px 0 7px 0; border-bottom:1px dashed #a5a5a5;}
+.video_other { width:100%; margin-top:30px; margin-bottom:30px;}
+.video_other_box { width:592px; height:130px; padding:20px 44px 5px 44px; background:#FFF; overflow:hidden; position:relative;}
+.video_other_box_left { width:29px; height:58px; position:absolute; left:8px; top:47px;}
+.video_other_box_right { width:29px; height:58px; position:absolute; right:8px; top:47px;}
+
+
+
+  
+
+
+
+
+
+
+
+
+

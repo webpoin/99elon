@@ -1,0 +1,45 @@
+
+.content{margin-top: 30px;}
+.content:after{content: '';display: block;overflow: hidden; width: 0;height: 50px;clear: both;}
+.main{position: relative;width: 680px; }
+.location{background: #fff;padding: 0 15px; }
+
+.m-tle strong{color: #177cb0;}
+
+.bordertop{position: relative; width: 680px; height: 10px;overflow: hidden;background: #177cb0;border-radius: 2px 2px 0 0;behavior:url(css/PIE.htc); }
+.mt4_note {border: 1px dashed #bdc0c3;background: #eaf4fe;border-radius: 5px ;padding: 20px;line-height: 28px;}
+
+
+
+
+.box{background: #fff;padding: 0 15px 30px;}
+.mt4_intro {overflow: hidden;}
+.mt4_intro li{float: left;position: relative; width: 222px;padding-left: 103px;height: 160px;margin-bottom: 15px;color: #929292;font-size: 12px;line-height: 24px;}
+.mt4_intro img{position: absolute;left: 0;top: 0;}
+.mt4_intro h3{font-size: 18px;line-height: 24px;color: #000;font-weight: normal;}
+
+.mt4_tle{overflow: hidden;}
+.mt4_tle li{float: left;width: 50%;height: 54px;text-indent: -999em;overflow: hidden;height: 48px;}
+
+.mt4_tle_download li.pc{background-position:0 top;background: url(../images/mt4_download_tle2.png) no-repeat 0 top; }
+.mt4_tle_download li.phone{background: url(../images/mt4_download_tle1.png) no-repeat right top;}
+.mt4_tle_download li.pc.active{background: url(../images/mt4_download_tle1.png) no-repeat 0 top;}
+.mt4_tle_download li.phone.active{background: url(../images/mt4_download_tle2.png) no-repeat right top;}
+
+.mt4_tle_install li.pc{background-position:0 top;background: url(../images/mt4_install_tle2.png) no-repeat 0 top; }
+.mt4_tle_install li.phone{background: url(../images/mt4_install_tle1.png) no-repeat right top;}
+.mt4_tle_install li.pc.active{background: url(../images/mt4_install_tle1.png) no-repeat 0 top;}
+.mt4_tle_install li.phone.active{background: url(../images/mt4_download_tle2.png) no-repeat right top;}
+
+
+
+.mt4_cnt{position: relative;font-size: 14px;line-height: 24px;font-family: '宋体';}
+.mt4_cnt p{margin: 20px;}
+.mt4_cnt p strong{font-weight: normal;color: #262626;}
+.mt4_cnt form{margin:20px 8px 0; }
+
+
+
+
+
+

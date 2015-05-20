@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>义隆改版</title>
+	<!--[if lt IE 8]><script src="js/ie67.js"></script><![endif]-->
+
+	<!-- 加载css -->
+	<?php
+		if(!empty($css)) { 
+			foreach ($css as $v){ 
+				echo "<link rel=\"stylesheet\" href=\"$v\" />";
+			} 
+		} 
+	?>
+	
+	<!-- <base target="_blank"/> -->
+</head>
+<body>
+
+	<!-- 顶部 -->
+	<div class="head_top">
+		<div class="center">
+
+			<div class="head_top_host">
+				<a class="js-sethome" href="#">设为首页</a> | 
+				<a class="js-setcollect" href="#">加入收藏</a> | 
+				<a href="#">联系我们</a>
+			</div>
+		
+			<div class="head_top_clock">
+				<span><img src="images/head_top_clock_london.gif" style="clip:rect(0 auto auto 0);">伦敦<b>11:05:26</b></span>
+				<span><img src="images/head_top_clock_newyork.gif" style="clip:rect(0 auto auto 0);">纽约<b>05:05:26</b></span>
+				<span><img src="images/head_top_clock_tokyo.gif" style="clip:rect(0 auto auto 0);">东京<b>19:05:26</b></span>
+				<span><img src="images/head_top_clock_hongkong.gif" style="clip:rect(0 auto auto 0);">香港<b>18:05:26</b></span>
+				<span><img src="images/head_top_clock_switzer.gif" style="clip:rect(0 auto auto 0);">瑞士	<b>11:05:42</b></span>
+			</div>
+			
+			<div class="head_top_login">
+				您好,欢迎来义隆金融！
+				<a href="#">【请登录】</a>
+				<a href="#">【注册】</a>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<!-- 头部 -->
+	<div class="head">
+		<div >
+			
+			<div class="center">
+				
+				<a class="head_logo" href=""><img src="images/head_logo.png" alt="义隆首页"></a>
+			
+				<form class="head_search" action="#">
+					<span class="head_hot">
+						<a href="#">如何开户</a>
+						<a href="#">如何操作MT4平台</a>
+					</span>
+
+					<div>
+						
+						<input type="text" value="Search"/>
+						<input type="submit" value=""/>
+						<ul>
+							<li>demo</li>
+							<li>demo</li>
+							<li>demo</li>
+							<li>demo</li>
+						</ul>
+					</div>
+				</form>
+
+				<div class="head_nav">
+					<i class="head_nav_slider"></i>
+					<a href="#">首页</a>
+					<a href="#">关于义隆</a>
+					<a href="#">资讯研究</a>
+					<a href="#">开户交易</a>
+					<a href="#">代理加盟</a>
+					<a href="#">投资学院</a>
+					<a href="#">优惠活动</a>
+					<a href="#">个人中心</a>
+				</div>
+
+			</div>
+
+
+		</div>
+		
+	</div>

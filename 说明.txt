@@ -1,0 +1,118 @@
+﻿已完成：
+
+/*************** 01 首页  ***********/
+//已完成
+首页 --> index.php
+--over
+
+
+
+
+/*************** 02 关于义隆  ***********/
+//已完成 
+02-集团新闻 --> list.php (与列表页同模板，侧边模块‘热点关注’ 变成‘最新公告’)
+03-最新公告 --> list_simple.php 
+01-义隆介绍 --> company.php
+--over
+
+
+
+
+
+/*************** 03 资讯研究  ***********/
+//已完成
+列表页 --> list.php
+文章页 --> article.php
+资讯研究 --> channel.php
+--over
+
+
+
+
+
+/*************** 04 开户交易  ***********/
+//已完成
+开立真实账户 --> account_real.php
+开立模拟账户 -->  account_simulate.php
+账户注资-在线 -->  account_invest_online.php
+账户注资-跨境 -->  account_invest_cross.php
+账户注资-转账 -->  account_invest_transfer.php
+账户取款 --> account_withdrawal.php
+用户登陆 --> login.php
+邮箱激活 --> activate.php
+--over
+
+
+
+/*************** 05 代理加盟  ***********/
+//已完成
+代理开户 --> account_proxy.php
+代理加盟 --> proxy.php
+--over
+
+
+
+
+
+
+/*************** 06 投资学院  ***********/
+//已完成 
+01投资学院  --> school.php
+02 专家问答 --> qustions.php
+02-视频讲座 --> video.php
+02-视频讲座详情页-->video_content.php
+--over
+
+
+
+
+
+/*************** 07 优惠活动  ***********/
+//已完成
+优惠活动 --> deals.php
+--over
+
+
+
+
+/*************** 08 个人中心  ***********/
+
+//已完成 
+个人中心首页 --> personal.php
+活动时间轴 --> personal_activity.php
+我的订阅 --> personal_subscribe.php
+基本信息 --> personal_infor.php
+银行信息 --> personal_bank.php
+帐户注资 --> personal_invest.php
+帐户提款 --> personal_withdrawal.php
+投资记录 --> personal_record.php
+个人信息修改 -->personal_setting.php
+--over
+
+
+
+
+/***************  附加  ***********/
+//已完成 
+06-搜索栏目 	--> search.php
+MT4介绍页 		--> mt4_intro.php
+专题页    		--> topic.php
+
+
+贵金属交易实例  --> www/贵金属交易实例.html
+贵金属交易细则  --> www/贵金属交易细则.html
+交易细则        --> www/交易细则.html
+免责声明	--> www/免责声明.html
+私隐条款	--> www/私隐条款.html
+客户协议 	--> www/客户协议.html
+外汇交易实例	--> www/外汇交易实例.html
+外汇交易细则	--> www/外汇交易细则.html
+专业术语	--> www/专业术语.html
+404页面		--> 404.php
+网站地图	--> www/网站地图.html
+财经日历	--> www/财经日历.html
+差价合约交易实例--> www/差价合约交易实例.html
+差价合约交易细则--> www/差价合约交易细则.html
+
+//未完成
+联系我们 		--> www/联系我们.html

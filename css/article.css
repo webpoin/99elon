@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.content{overflow: hidden;margin-top: 30px;}
+.main{position: relative;width: 680px; }
+.location{background: #fff;padding: 0 15px; }
+
+.articles_time{display: inline-block; padding-left: 20px;background: url(../images/articles_time.png) no-repeat left center;color: #787878;}
+.articles_share{display: inline-block; padding-left: 20px;background: url(../images/articles_share.png) no-repeat left center;color: #787878;}
+.articles_detail{float: right;color: #285599;}
+
+
+
+
+
+
+/*客户服务*/
+.service{margin-top: 30px;}
+.service ul{height: 329px; border:1px solid #b7babf;overflow: hidden;background: #fff; }
+.service li{position: relative; border-bottom: 1px solid #b7babf; overflow: hidden;}
+.service cite{margin-left: 54px;line-height: 18px;padding:8px 0; }
+.service ul img{position: absolute;left: 10px;top: 10px;}
+.service ul strong{display: block;font-size: 18px;font-family: Arial;font-weight: normal;}
+.service ul em{display: block;font-size: 14px;color: #535353;}
+
+.service_pic img{position: inherit !important;}
+.service_float{float: left;width: 50%;border-right:1px solid #b7babf; }
+
+
+
+/*新手指南*/
+.novice{margin-top: 30px;}
+.novice ul{margin-right: -10px;overflow: hidden;}
+.novice li{position: relative; float: left;height: 48px;line-height: 48px;width: 150px;margin:0 6px 6px 0;text-indent: 48px;  border:1px solid #b7babf;background: #fff; }
+.novice li strong{font-size: 16px;color: #7c7c7c;margin-right: 5px;font-weight: normal; }
+.novice ul img{position: absolute;left: 12px;top: 7px;}
+li.novice_first{width: 308px;}
+.novice li:hover{background: #fedd30;border-color: #c9ab0b;}
+
+
+
+.bordertop{position: relative; width: 680px; height: 10px;overflow: hidden;background: #177cb0;border-radius: 2px 2px 0 0;behavior:url(css/PIE.htc); }
+
+.article{background: #fff;padding:0 15px; }
+.article_tle { font-size:24px; font-weight:normal; color:#177cb0; line-height:30px; text-align:center;padding-bottom: 8px;}
+.article_des { text-align:center;font-weight: normal;}
+.article_abstract{margin:20px 0 30px -1px; width:610px; padding:10px 20px;  background:#f0f6fa; border:1px dashed #b7bbbe; height:75px; overflow:hidden; font-size:14px;}
+.article_thub {text-align: center;}
+
+.article_cnt{font-size:14px; line-height:24px; text-indent: 2em;}
+.article_cnt p{  padding:10px 0;}
+.article_source{color:#aeaeae; font-size:12px;}
+.article_associate{white-space: nowrap;}
+.article_associate a{display: inline-block; width:198px; height:38px; background:#FFF; border:1px solid #9b9b9b; text-align:center; line-height:38px; font-size:14px;  margin:30px 10px 20px 0;border-radius:3px;}
+.article_associate a:hover { color:#fff; background:#177cb0;}
+
+
+.keywords {width:650px; float:left; background:#FFF; padding:0 15px; margin-top:30px; margin-bottom:30px;}
+.keywords  h2 { border-bottom:1px dotted #b9b9b9; line-height:45px; font-size:14px; }
+
+.keywords ul { padding: 20px 0;overflow: hidden;}
+.keywords li { font-size:14px; float:left; width:300px; margin-right:25px; line-height:24px;text-align: right;}
+.keywords ul a { float:left; }
+.keywords ul a:hover { color:#177cb0;}
+
+
+
+.attention { height:360px; overflow:hidden; background:#FFF; width:290px; padding: 10px 10px 0px 10px; margin-bottom:15px; behavior:url(pie.htc); box-shadow: 0px 2px 3px rgba(0,0,0,0.5); }
+.attention a:hover { color:#177cb0;}
+.attention h2 { font-size:24px; font-weight:normal; border-left:3px solid #177cb0; text-indent:10px; background:url(../images/attention_jt.jpg) no-repeat right;margin-bottom:25px;}
+.attention_top {display:block;position: relative; padding-left: 10px; font-size:18px; white-space:normal; }
+.attention_top:before {content: ''; position: absolute;left: 0;top: 10px; width:4px; height:4px;background: #369;}
+.attention_xian { padding:15px 0;border-bottom:1px dotted #b9b9b9;}
+.attention ul { border-bottom:5px #d3d3d3 solid; padding-bottom:15px; padding-top:10px;}
+.attention li {position: relative;padding-left: 10px; font-size:14px;overflow:hidden; line-height:30px;  }
+.attention li:before {content: ''; position: absolute;left: 0;top: 14px; width:4px; height:4px;background: #369;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

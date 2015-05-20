@@ -1,0 +1,104 @@
+html{overflow-y: hidden;}
+body{ background-color: #ffe9ba;}
+
+
+form{overflow: hidden;}
+form cite{position: relative; float: left;clear: both; margin-bottom: 28px;height: 40px;line-height: 40px;}
+form input[type="text"],
+form input[type="password"]{position: relative;width: 295px;height: 18px;line-height: 18px; padding:10px 5px 10px 40px;border:none;border: 1px solid #c9c9c9;outline: none;border-radius: 2px; }
+form input[type="submit"]{position: relative; width: 296px;font-size: 14px;height: 40px;line-height: 40px;border-radius: 2px; color: #fff;background: #478bca;text-align: center;border: none; cursor: pointer; behavior:url(css/PIE.htc); }
+form input[type="text"]:focus,
+form input[type="password"]:focus{box-shadow:0px 0px 2px #5faee3;border-color:#5faee3;}
+
+form input[type="radio"]{position: absolute; width: 0;height: 0;overflow: hidden;margin: 0;padding: 0;border: none;}
+form input[type="radio"]+span{display: inline-block;height: 40px;margin-right: 20px;cursor: pointer; font-size: 14px;line-height: 36px; padding-left: 25px;background: url(../images/icon_form_radio.png) no-repeat -10px top;}
+form input[type="radio"].select+span{background: url(../images/icon_form_radio.png) no-repeat -10px -40px;}
+
+form input[type="checkbox"]{position: absolute; width: 0;height: 0;overflow: hidden;margin: 0;padding: 0;border: none;}
+form input[type="checkbox"]+span{display: inline-block;height: 40px;margin-right: 20px;cursor: pointer; font-size: 14px;line-height: 36px; padding-left: 25px;background: url(../images/icon_form_checkbox.png) no-repeat -10px top;}
+form input[type="checkbox"].select+span{background: url(../images/icon_form_checkbox.png) no-repeat -10px -40px;}
+
+
+form label{display: inline-block;position: relative;vertical-align: top;}
+form label>em{position: absolute;white-space:nowrap;left: 40px;top: 0;color: #9d9d9d;cursor: text; }
+form label>img{position: absolute;top: 0;left: 5px;top: 5px;}
+form cite>b{display:inline-block; vertical-align: top;background: #5faee3;width: 110px;text-align: center;color: #fff;font: normal 14px/40px '宋体';cursor: pointer;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none; border-radius: 2px; behavior:url(css/PIE.htc); }
+
+/*提示*/
+form cite>i{display: none;position: absolute;left: 100%;top: 0;margin-left: 7px; height: 38px;padding:0 30px;white-space:nowrap;font-style: normal;behavior:url(css/PIE.htc);}
+form cite>i.form-note-success{display: block;background: url(../images/account_form_icon_03.png) no-repeat left center;}
+form cite>i.form-note-warn{display: block;border:1px solid #eabd2c;  background: url(../images/account_form_icon_01.png) no-repeat left center #fffdf2;box-shadow: 3px 3px 3px #ebeae2;}
+form cite>i.form-note-warn:before{content: '';position: absolute;left: -5px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #eabd2c;z-index: 1; }
+form cite>i.form-note-warn:after{content: '';position: absolute;left: -4px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #fffdf2;z-index: 1; }
+form cite>i.form-note-error{display: block;border:1px solid #fe0e0e;  background: url(../images/account_form_icon_02.png) no-repeat left center #ffdbdb;box-shadow: 3px 3px 3px #ebeae2;}
+form cite>i.form-note-error:before{content: '';position: absolute;left: -5px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #fe0e0e;z-index: 1; }
+form cite>i.form-note-error:after{content: '';position: absolute;left: -4px;top: 15px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 5px solid #ffdbdb;z-index: 1; }
+
+
+
+
+
+
+
+.head{z-index: 1;}
+.content{position: absolute; top: 112px;bottom: 50px;width: 100%;overflow: hidden;min-width: 1000px; }
+
+.bkg{position: absolute;top: 0;left: 0; width: 100%; height: 100%;}
+.bkg img{position: absolute;width: 1920px;left: 50%;top: 50%;margin-left: -960px;margin-top: -360px;}
+.bkg a{position: absolute;left: 50%;top: 50%; margin-left: -252px;margin-top: -12px; width: 148px;height: 32px;text-align: center;font-size: 14px;line-height: 32px;color: #fff;border-radius: 5px; background: #dc6900;behavior:url(css/PIE.htc); }
+
+
+
+
+
+.login{position: absolute;left: 50%;top: 50%;margin-top: -200px;margin-left: 130px; width: 310px;height: 400px;border: 1px solid #9e9e90;border-radius: 5px;box-shadow: 0px 3px 18px #9e9f90;overflow: hidden;
+	background-color:#f1f6fa;
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#f1f6fa), to(#dee7f0));
+	background:-moz-linear-gradient(#f1f6fa, #dee7f0);
+	-pie-background:linear-gradient(#f1f6fa, #dee7f0);
+	behavior:url(pie.htc); 
+}
+
+.login h2{float: left;width: 50%;font:normal 18px/46px '微软雅黑';text-align: center;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;}
+.login h2 strong{display: block; font-weight: normal;background: #a6c3e0;color: #fff;text-shadow:1px 1px 1px #40648a;cursor: pointer;border-left:1px solid #83a7cb; border-right:1px solid #83a7cb;margin:0 -1px;  }
+.login form{display: none;position: absolute;top: 72px;width: 100%;font-size: 12px;}
+.login form cite{float:none;  margin: 0 26px 26px;}
+.login form input[type="text"],
+.login form input[type="password"]{width: 210px;}
+.login form input[type="submit"]{ width: 258px;}
+.login form cite>b{background: #f6b700;}
+
+.login form cite.form_remember{margin-top: -20px;margin-bottom: 8px;}
+.login form cite.form_remember>em{position: absolute;right: 0;}
+.login form cite.form_remember>{color: #f00;}
+
+.login .active form{display: block;}
+.login .active h2 strong{background: none;color: #32678b;text-shadow:1px 1px #fff;}
+
+
+.form_note{margin:-20px 26px 0;font-size: 14px;line-height: 24px;color: #484848; }
+.form_note strong{color:#f00;font-size: 18px;vertical-align: 0;font-weight: normal; }
+
+.login_erwei{position: absolute;left: 0;bottom: 0;right: 0;padding-left: 25px;padding-top: 10px;font:normal 12px/22px '宋体'; height: 53px; background: #d7e1ed;color: #758b9c;}
+.login_erwei h3{font-weight: normal;font-size: 14px;}
+.login_erwei cite{position: absolute;width: 64px;height: 64px;bottom: 0;right: 0;overflow: hidden;}
+.login_erwei cite img{cursor: pointer;}
+
+.login_erwei cite i{display: none; position: absolute;width: 100px;height: 100px;left: -53px;top: -53px; background: url(no.gif);
+
+margin-left: -20px\9;
+margin-top: -20px\9;
+/*transform: rotate(135deg);
+-o-transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);*/
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7660444431189777, M12=-0.6427876096865394, M21=0.6427876096865398, M22=0.7660444431189779);
+/*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);*/
+
+/*filter:progid:DXImageTransform.Microsoft.Matrix(M11=-0.707,M12=-0.707,M21=0.707,M22=-0.707,SizingMethod='auto expand');*/
+
+}
+
+
+
+.foot_copy{position: absolute;width: 100%;bottom: 0;left: 0;min-width: 1000px;}

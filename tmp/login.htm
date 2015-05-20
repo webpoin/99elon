@@ -1,0 +1,144 @@
+
+
+	<div class="content">
+		<div class="bkg">
+			<img src="images/login_bkg.jpg" />
+			<a href="#">立即开立交易账户></a>
+		</div>
+
+
+		
+		<div class="login">
+			<ul>
+				<li class='active'>
+					<h2><strong>密码登录</strong></h2>
+					<form class="js-form" action="#">
+			
+						<cite>
+							<label>
+								<input type="text" />
+								<em>请输入注册邮箱/手机</em>
+								<img src="images/account_form_icon_1.png" />
+							</label>
+							<i></i> <!--提示-->
+						</cite>
+
+
+						<cite>
+							<label>
+								<input type="password"  />
+								<em>请输入登录密码</em>
+								<img src="images/account_form_icon_3.png" />
+							</label>
+							<i>请输入6-16位密码</i>
+						</cite>
+
+						<cite class="form_remember">
+							<label>
+								<input type="checkbox" checked="true">
+								<span>记住我帐号</span>
+							</label>
+							<em><a href="#">忘记登录密码？</a></em>
+						</cite>
+
+						<cite>
+							<input type="submit" value="登 录" />
+						</cite>
+
+						<div class="form_note">登录过程中如有其它问题，<br>请致电客服: <strong>4000-388-366</strong></div>
+
+					</form>	
+				</li>
+
+				<li>
+					<h2><strong>验证登录</strong></h2>
+					<form class="js-form" action="#">
+			
+						<cite>
+							<label>
+								<input type="text" />
+								<em>请输入您的手机号码</em>
+								<img src="images/account_form_icon_1.png" />
+							</label>
+							<i></i> <!--提示-->
+						</cite>
+
+						<cite>
+							<label>
+								<input type="text" style="width:97px" />
+								<em>请输入验证码</em>
+								<img src="images/account_form_icon_2.png" />
+							</label>
+							<b>获取验证码 ></b>
+							<i>请输入用户名</i>
+						</cite>
+
+						<cite class="form_remember">
+							验证码未收到? &nbsp;&nbsp;&nbsp; 联系<a href="#" style="color:#f00;"><em>在线客服</em></a>
+						</cite>
+
+						<cite>
+							<input type="submit" value="登 录" />
+						</cite>
+
+						<div class="form_note">登录过程中如有其它问题，<br>请致电客服: <strong>4000-388-366</strong></div>
+
+
+					</form>	
+				</li>
+
+			</ul>
+
+
+
+
+			<div class="login_erwei">
+				<h3>MT4软件下载</h3>
+				手机扫描二维码获得下载地址
+				<cite>
+					<i></i>
+					<img src="images/login_erwei.png"/>
+				</cite>
+			</div>
+
+			
+
+		</div>
+
+
+
+	</div>
+
+
+	
+
+
+
+
+
+	<div class="foot_copy">
+		<div class="center">
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">免责声明</a>
+			<a href="#">隐私条款</a>
+			<a href="#">客户协议</a>
+			<a href="#">网站地图</a>
+			<a href="#">友情链接</a>
+			Copyright © 99elon.com Corporation. All rights reserved
+		</div>
+	</div>
+
+
+	<!-- 加载js -->
+	<?php 
+		if(!empty($js)) { 
+			foreach ($js as $v){ 
+				echo "<script src=\"$v\" ></script>";
+			} 
+		} 
+	?>
+
+
+</body>
+</html>
